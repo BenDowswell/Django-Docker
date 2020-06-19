@@ -1,6 +1,8 @@
 # Django-Docker
 
-This is a Docker container for django, gunicon.
+This is a Docker container for django, gunicon ngnix
+originally followed this guide:
+https://semaphoreci.com/community/tutorials/dockerizing-a-python-django-web-application
 
 The code base for this can be found at https://github.com/BenDowswell/Recipe-Site
 

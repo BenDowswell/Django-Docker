@@ -35,18 +35,17 @@ Steps:
 7:  surf to http://127.0.0.1:8000/  the deb website should load.  ctrl C in the terminal to close
 
 8:  Run command: python manage.py collectstatic
-9:  Run command: cd ..
 
-10: Run command: chmod 755 start-server.sh
+9: in mysite/settings.py  add server ip to allowed hosts  eg  ALLOWED_HOSTS = ["192.168.0.37"]
 
-11: Run command: mkdir -p .pip_cache
+10:  Run command: cd ..
 
-12: Run command: sudo docker build -t recipesite .
+11: Run command: chmod 755 start-server.sh
 
-13: Run command: sudo docker run -it -p 8020:8020 recipesite
+12: Run command: mkdir -p .pip_cache
 
-14: surf to http://localhost:8020/   webapp should load
+13: Run command: sudo docker build -t recipesite .
 
+14: Run command: sudo docker run -it -p 8020:8020 recipesite
 
-
-
+15: surf to http://localhost:8020/   webapp should load

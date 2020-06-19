@@ -38,7 +38,7 @@ Steps:
 
 9: in mysite/settings.py  add server ip to allowed hosts  eg  ALLOWED_HOSTS = ["192.168.0.37"]
 
-10:  Run command: cd ..
+10: Change directory back to the folder you made in step 1
 
 11: Run command: chmod 755 start-server.sh
 
